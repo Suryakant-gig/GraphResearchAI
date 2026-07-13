@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Uploaded PDFs
+uploads/
+
+# Neo4j Local Database Files
+data/
+dbms/
+transactions/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

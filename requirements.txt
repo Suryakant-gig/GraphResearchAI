@@ -1,0 +1,7 @@
+streamlit
+neo4j
+pypdf
+langchain-google-genai
+python-dotenv
+tqdm
+pydantic
