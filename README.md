@@ -33,7 +33,7 @@ This version is a real, importable package:
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # then fill in GOOGLE_API_KEY and NEO4J_PASSWORD
+cp .env .env   # then fill in GOOGLE_API_KEY and NEO4J_PASSWORD
 ```
 
 You need a running Neo4j instance (e.g. `docker run -p 7687:7687 -p 7474:7474 neo4j`)

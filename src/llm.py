@@ -8,7 +8,7 @@ from functools import lru_cache
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-from .config import load_settings
+from config import load_settings
 
 
 @lru_cache(maxsize=1)

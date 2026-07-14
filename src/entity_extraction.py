@@ -13,7 +13,7 @@ from typing import Any
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import ValidationError
 
-from .schemas import Entity
+from schemas import Entity
 
 logger = logging.getLogger(__name__)
 

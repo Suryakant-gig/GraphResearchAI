@@ -12,7 +12,7 @@ import logging
 from langchain_google_genai import ChatGoogleGenerativeAI
 from neo4j import Driver
 
-from .cypher_generation import generate_cypher
+from cypher_generation import generate_cypher
 
 logger = logging.getLogger(__name__)
 

@@ -28,7 +28,7 @@ class Settings:
     neo4j_uri: str
     neo4j_user: str
     neo4j_password: str
-    llm_model: str = "gemini-1.5-flash"
+    llm_model: str
     chunk_size: int = 1000
     chunk_overlap: int = 200
 

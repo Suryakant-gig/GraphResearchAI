@@ -12,8 +12,8 @@ import logging
 
 from neo4j import Driver, GraphDatabase
 
-from .config import Settings, load_settings
-from .schemas import Entity, Relationship
+from config import Settings, load_settings
+from schemas import Entity, Relationship
 
 logger = logging.getLogger(__name__)
 

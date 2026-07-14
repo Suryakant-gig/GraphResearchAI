@@ -9,13 +9,13 @@ import logging
 
 from tqdm import tqdm
 
-from .chunker import chunk_text
-from .config import load_settings
-from .entity_extraction import extract_entities
-from .graph_writer import GraphWriter
-from .llm import get_llm
-from .pdf_loader import load_pdf_text
-from .relationship_extraction import extract_relationships
+from chunker import chunk_text
+from config import load_settings
+from entity_extraction import extract_entities
+from graph_writer import GraphWriter
+from llm import get_llm
+from pdf_loader import load_pdf_text
+from relationship_extraction import extract_relationships
 
 logger = logging.getLogger(__name__)
 

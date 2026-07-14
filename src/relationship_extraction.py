@@ -14,7 +14,7 @@ from typing import Any
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import ValidationError
 
-from .schemas import Entity, Relationship
+from schemas import Entity, Relationship
 
 logger = logging.getLogger(__name__)
 

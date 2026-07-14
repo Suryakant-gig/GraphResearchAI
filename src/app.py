@@ -12,11 +12,11 @@ from pathlib import Path
 
 import streamlit as st
 
-from .config import load_settings
-from .graph_writer import GraphWriter
-from .llm import get_llm
-from .pipeline import ingest_pdf
-from .qa_engine import answer_question
+from config import load_settings
+from graph_writer import GraphWriter
+from llm import get_llm
+from pipeline import ingest_pdf
+from qa_engine import answer_question
 
 logging.basicConfig(level=logging.INFO)
 
