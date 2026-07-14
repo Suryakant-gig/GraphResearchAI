@@ -1,7 +1,9 @@
 streamlit
 neo4j
 pypdf
+langchain-community
 langchain-google-genai
+langchain-text-splitters
 python-dotenv
 tqdm
 pydantic
